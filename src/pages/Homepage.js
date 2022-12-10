@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 
 // Context
 import ShowsContext from "../context/shows/showsContext";
@@ -10,7 +10,11 @@ import Loader from "../components/Loader";
 
 const Homepage = () => {
   const showsContext = useContext(ShowsContext);
-  const { loading, shows } = showsContext;
+  const { loading, shows,allshows } = showsContext;
+
+  // useEffect(()=>{
+  //   allshows()
+  // },[])
 
   return (
     <div className="homepage">

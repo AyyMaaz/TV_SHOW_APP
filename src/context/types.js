@@ -1,4 +1,5 @@
 // Shows
+export const ALL_SHOWS = "ALL_SHOWS";
 export const SEARCH_SHOWS = "SEARCH_SHOWS";
 export const SET_LOADING = "SET_LOADING";
 export const SET_SINGLE_SHOW = "SET_SINGLE_SHOW";

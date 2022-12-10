@@ -1,4 +1,4 @@
-import { useEffect, useContext } from "react";
+import { useEffect, useContext, useState } from "react";
 
 // Context
 import ShowsContext from "../context/shows/showsContext";
@@ -8,6 +8,7 @@ import Loader from "../components/Loader";
 
 const Singlepage = ({ match }) => {
   const { getSingleShow, singleShow, loading } = useContext(ShowsContext);
+
 
   useEffect(() => {
     getSingleShow(match.params.id);

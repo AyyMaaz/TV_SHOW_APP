@@ -1,6 +1,6 @@
 :root {
-  --dark-color: #171717;
-  --secondary-color: #3c948b;
+  --dark-color: brown;
+  --secondary-color: white;
   --offwhite-color: #f4f4f4;
 }
 
@@ -12,6 +12,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: wheat;
 }
 
 img {
@@ -178,6 +180,7 @@ img {
 .singleshow {
   display: flex;
   margin: 2rem 0;
+  color: brown;
 }
 
 .singleshow > img {
@@ -194,7 +197,7 @@ img {
   margin: 0.5rem 1rem 0.5rem 0;
   padding: 10px 17px;
   background: var(--secondary-color);
-  color: var(--offwhite-color);
+  color: brown;
 }
 
 /* About page Styles */

@@ -15,6 +15,8 @@ const Searchbar = () => {
 
   const { alert, setAlert } = useContext(AlertsContext);
 
+
+
   const onSearchHandler = (e) => {
     e.preventDefault();
 
